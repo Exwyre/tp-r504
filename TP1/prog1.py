@@ -1,10 +1,13 @@
 import fonctions as f
 
-a = int(input("Entrez la base (a) : "))
-b = int(input("Entrez l'exposant (b) : "))
+#f.puissance( 4.2,2.3)
 
-res = f.puissance(a, b)
+while True:
+	a = int(input("Entrez la base (a) : "))
+	b = int(input("Entrez l'exposant (b) : "))
 
-print(f"{res}")
+	res = f.puissance(a, b)
+
+	print(f"{res}")
     #except ValueError:
-      #  print("Veuillez entrer un nombre valide.")
+    	#print("Veuillez entrer un nombre valide.")
