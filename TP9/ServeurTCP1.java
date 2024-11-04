@@ -3,9 +3,9 @@ import java.net.*;
 
 public class ServeurTCP1
 {
-    public static void main(String[] args)
+	public static void main(String[] args)
 	{
-        try
+		try
 		{
 			ServerSocket socketserver = new ServerSocket ( 2016 );
 			System.out.println( "serveur en attente" );
@@ -20,7 +20,7 @@ public class ServeurTCP1
 		} 
 		catch (Exception ex)
 		{
-            System.out.println("Erreur!");
+			System.out.println("Erreur!");
 		}
 	}
 }
