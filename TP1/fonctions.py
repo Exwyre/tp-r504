@@ -16,3 +16,4 @@ def puissance(a,b):
          return result
    else:
       return 1
+#azeaz
