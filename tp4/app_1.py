@@ -9,14 +9,20 @@ db_config = {
     'user': 'root',
     'password': 'foo',
     'database': 'demosql',
-	'port': '3307'
+	'port': '3306'
 }
 
 # Initialize MySQL connection
 conn = mysql.connector.connect(**db_config)
 cursor = conn.cursor() 
 
-
+@app.route('/newuser/',methods = ['POST', 'GET'])
+def saisie():
+	if request.method == 'POST':
+		res = request.form.get( "lname" )
+		return res.text()
+		
+#		return render_template("result.html", result=result, app_version=app_version
 @app.route('/')
 def index():
     # Sample query
