@@ -1,0 +1,33 @@
+# format: Question;Réponse
+# CONSIGNES:
+# 1-Fichier à éditer dans un editeur texte. Edition via Tableur (Excel ou LO/Calc) possible, mais attention à enregistrer en CSV!
+# 2-Déposer en ligne UNIQUEMENT la version CSV, avec ";" comme séparateur de champ
+# 3-donner les réponses en UNE SEULE LIGNE, sans caractère ";"
+# 4-Ne pas rajouter de ligne ou saut de ligne
+# 5-Ne pas modifier la numérotation
+# 6-Si pas de réponse à donner dans la question, laisser la ligne vide
+
+Q1.1;
+Q1.2;
+Q1.3;
+Q1.4;
+Q1.5;
+Q1.6;
+Q1.7;
+Q1.8;
+Q1.9;
+Q1.10;
+Q1.11;
+
+Q2.1;
+Q2.2;
+Q2.3;
+Q2.4;
+Q2.5;
+Q2.6;
+
+Q3.1;
+Q3.2;
+Q3.3;
+Q3.4;
+
