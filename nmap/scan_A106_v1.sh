@@ -10,4 +10,3 @@ do
 	a=$(nmap -F $VAR | grep "/tcp" | grep "open"| wc -l)
 	echo "$VAR,$a" >> scan_result_1.csv
 done < scan_result_2.txt
-
